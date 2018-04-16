@@ -1,0 +1,165 @@
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="phone"], textarea, select,
+#footer,
+.infoBox-close,
+body .map-box,
+#mapnav-buttons a ,
+.post-content,
+body.home .pagination-container.alt ul li a, body.home .pagination-next-prev.alt ul li a,
+.pagination-container.alt ul li a, .pagination-next-prev.alt ul li a,
+.alt.post .post-content,
+.widget.widget-out-title .widget-inside, .widget:not(.widget-out-title) ,
+.titlebar,
+.tagcloud a,
+.post-series,
+.about-author,
+.related-posts ul li,
+.post-navigation .nav-links a ,
+.comment-content,
+.tab-content,
+.tabs-nav li a:hover,
+.ui-accordion .ui-accordion-content, .toggle-container,
+.ui-accordion .ui-accordion-header, .trigger a,
+.post-quote,
+.wp-caption .wp-caption-text, figure.image-right figcaption, figure.image-left figcaption, .wp-caption-text ,
+.example-grid .column, .example-grid .columns {
+    background-color: #282828;
+}
+
+.sf-arrows .sf-with-ul::after { color: #808080;}
+
+body .infoBox::after {
+    border-top: 20px solid  #282828;
+}
+
+#header,
+.header-search,
+.header-search input[type="text"],
+.close-search a,
+#header.boxed .header-search input[type="text"],
+.header-search input:focus,
+body,
+body.home {
+    background-color: #202020 !important;
+}
+
+
+
+a.button:hover, input[type="button"]:hover, input[type="submit"]:hover,
+#backtotop_wpv a:hover,
+#backtotop_wpv a:hover:after,a.button:hover,
+input[type="submit"].newsletter-btn:hover { color: #333; transition: color 0.2s ease-in-out; }
+
+#backtotop_wpv a:hover, a.button:hover{ background-color: #fff;  transition: all 0.2s ease-in-out;  }
+
+body .map-box a h2:hover,
+.post-content h2 a:hover,
+.about-author a:hover,
+.related-posts a h4:hover{
+    color: #e0e0e0;
+}
+
+
+
+.fun-facts-container,
+input.newsletter,
+.box-item.no-thumb,
+.search-form input.search-field, .widget-out-title_search input.search-field, .widget_search input.search-field,
+select#categories-dropdown--1, select#archives-dropdown--1, select#cat, .widget_text select,
+.widget_tag_cloud .tagcloud a,
+.comment-by a.comment-reply-link,
+a.ptwsi-social-icon, a.ptwsi-social-icon:visited, .ptwsi_social-icons li a:visited, .ptwsi_social-icons li a,
+.highlight.light,
+.example-grid .column:hover, .example-grid .columns:hover {
+    background: #333; }
+
+
+
+h1, h2, h3, h4, h5, h6 , strong,
+#header .menu ul li a:hover,#header .menu ul > li:hover > a,
+#header .menu ul > li > a,
+.close-search a,
+#header.boxed .header-search input,
+.header-search input[type="text"],
+.infoBox-close,
+#mapnav-buttons a,
+.post-content h2 a,
+body.home .pagination-container.alt ul li a, body.home .pagination-next-prev.alt ul li a,
+.pagination-container.alt ul li a, .pagination-next-prev.alt ul li a,
+ input[type="button"]:hover, input[type="submit"]:hover,
+.author-box .name a,
+.widget-text h4 a,
+.tagcloud a,
+.search-form input.search-field, .widget-out-title_search input.search-field, .widget_search input.search-field,
+.widget_rss li a,
+.post-series,
+.post-series a.next-post, .post-series a.show-more-posts,
+.post-series a.next-post::after, .post-series a.show-more-posts::after,
+.about-author a,
+.related-posts a h4,
+.post-navigation .nav-links a,
+.comment-content strong,
+.comment-by a.comment-reply-link,
+.comment-by a.comment-reply-link i,
+.tabs-nav li a:hover,
+.post-series-links li:hover::before, .post-series-links li a:hover,ul.post-series-links li,.post-series-links li.active::before,
+.ui-accordion .ui-accordion-header, .trigger a,
+a.ptwsi-social-icon, a.ptwsi-social-icon:visited, .ptwsi_social-icons li a:visited, .ptwsi_social-icons li a,
+.post-quote span,
+.highlight.light,
+.dropcap,
+.wp-caption .wp-caption-text, figure.image-right figcaption, figure.image-left figcaption, .wp-caption-text,
+.example-grid .column, .example-grid .columns,
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="phone"], textarea, select {
+    color: #fff;
+}
+
+body,
+body.home,
+.post-content span,
+.post-content span a,
+.post-content .meta span,
+#breadcrumbs ul li, #breadcrumbs ul li a, #breadcrumbs ul li:last-child a,
+.author-box a,
+.widget-text h4 a:hover,
+.recentcomments a,
+.widget_categories li a, .widget-out-title_categories li a, .widget_archive li a, .widget-out-title_archive li a, 
+.widget_recent_entries li a, .widget-out-title_recent_entries li a, .categories li a, .widget_pages li a, .widget_nav_menu li a, .widget_meta li a,
+.taxonomy-description,
+.about-author,
+.widget-text span,
+.related-posts span,
+.comment-content,.titlebar span,
+.comment-by span.date,
+blockquote, .post-quote blockquote,.infoBox .date {
+    color: #aaa; 
+}
+
+
+
+.recent-posts-widget li, #recentcomments li,
+.widget_rss li,
+.taxonomy-description,
+.divider,abbr {
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+
+
+.notification.error,div.wpcf7-mail-sent-ng,
+div.wpcf7-spam-blocked,
+div.wpcf7-validation-errors,
+.notification.error,
+.notification.error strong {background-color: #e24848; color: #fff;}
+.notification.success,div.wpcf7-mail-sent-ok,
+#result .success,
+.notification.success,
+.notification.success strong {background-color: #82bb37; color: #fff;}
+.notification.warning {background-color: #e9bc42; color: #fff;}
+.notification.notice {background-color: #48b3e5; color: #fff;}
+@media only screen and (max-width: 990px) {
+a.menu-trigger,
+.search-trigger {
+	color:#fff;
+	background: transparent;
+}
+}
